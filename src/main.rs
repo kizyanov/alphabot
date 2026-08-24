@@ -1,6 +1,7 @@
 use teloxide::dispatching::UpdateFilterExt;
 use teloxide::dptree;
-use teloxide::prelude::*;
+use teloxide::payloads::SendMessageSetters;
+use teloxide::prelude::{Bot, Dispatcher, Message, Requester, ResponseResult, Update};
 use teloxide::types::{CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup};
 use tracing::{error, info};
 
